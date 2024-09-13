@@ -8,16 +8,12 @@ header{
 
 /*写真*/
 header h1 img{
-    width:940px;  /*top*/
-}
-
-p img{
-    width: 920px;  /*E-district*/
-    margin: 10px 10px;
+    width:1020px;  /*top*/
 }
 
 
-section nav p img{  /*キャラ,弾*/
+
+section nav p img{  /*レジェンド*/
     width: 800px;
     margin:30px 70px 0px;
 }
@@ -34,7 +30,7 @@ body{
 }
 header{
     width: 1240px;
-    margin: 0 auto 44px;
+    margin: 0 auto 50px;
 }
 
 h1{
@@ -48,13 +44,13 @@ header nav ul{
     border-top: 2px solid #7c5d48;
     border-bottom: 2px solid #7c5d48;
     background-color: whitesmoke;
-    padding: 12px 0 10px;  
+    padding: 20px 0;  
 }
 header nav ul li{
     margin: 0 40px;
 }
 header nav ul li a{
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
     color: #7c5d48
 }
@@ -89,7 +85,7 @@ aside nav{
     margin-bottom: 24px;
 }
 
-aside nav h2{
+aside nav h2{ /*サイドの文字*/
     margin-bottom: 18px;
     font-size: 22px;
     font-weight: bold;
@@ -97,7 +93,7 @@ aside nav h2{
 }
 
 aside nav ul{
-    font-size: 14px;
+    font-size: 20px;
 }
 
 aside nav ul li a:hover{
@@ -125,9 +121,9 @@ aside nav ul li a:hover{
     overflow: hidden scroll;
 }
 
-article h2 {
-    font-size : 40px;
-    font-weight: 500;
+article h2 { /*文　シーズン22最新情報!!*/
+    font-size : 55px;
+    font-weight:600px;
     margin-bottom: 8px;
 }
 
@@ -159,11 +155,11 @@ article section{
 }
 
 /*文　サイズ*/
-article h3{
-    border-bottom: 2px solid #6ab547;
+article h3{ /*文　レジェンド調整*/
+    border-bottom: 10px solid #6ab547;
     margin-bottom: 20px;
-    font-size: 28px;
-    font-weight:600;
+    font-size: 40px;
+    font-weight:500px;
     background-image: url(../images/h2_icon.png);
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -171,49 +167,35 @@ article h3{
 }
 
 h4{
-    font-size: 24px;
-    border-bottom: 2px dashed #a7a7a7;
+    font-size: 30px; /*ヒューズ弱体化*/
+    border-bottom: 5px dashed #a7a7a7;
     padding: 10px 10px 10px 10px;
 }
 
 section ul {  /*文　囲い*/
-    border: 3px solid rgb(174, 230, 191);
+    border: 5px solid rgb(174, 230, 191);
     padding: 30px 0px 30px 0px ;
     margin: 10px 70px 20px;
 }
 
 section ul li{ /*囲ってある文*/
-    font-size: 20px;
+    font-size: 25px;
     padding: 5px 30px;
     text-align: left;
     margin:10px 0px;
 }
 
-figcaption{  /*GR*/
-    font-size: 20px;
-    margin: 10px 10px;
-    border: 3px solid rgb(174, 230, 191);
-    padding: 30px 5px;
-}
+
 
 red{  /*ケアパケ武器化*/
     color:red;
 }
 
-reference{
-    font-size: 20px;
-}
-ol{
-    color: blue;
-    padding-bottom: 20px;   
-}
-ol a {
-    border-bottom:3px solid blue;
-}
+
 
 bottom{ 
     border:6px double black;
-    font-size: 40px;
+    font-size: 50px;
     width:150px;
     text-align: center;
     padding: 20px auto;
